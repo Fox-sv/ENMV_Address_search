@@ -20,7 +20,7 @@ class Ui_EnmvAddressSearch(object):
         EnmvAddressSearch.resize(500, 570)
         EnmvAddressSearch.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("ENMV-1W.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("img/ENMV-1W.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         EnmvAddressSearch.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(EnmvAddressSearch)
         self.centralwidget.setObjectName("centralwidget")
@@ -181,7 +181,7 @@ class Main1(QtWidgets.QMainWindow, Ui_EnmvAddressSearch):
         self.inst.show()
 
     def set_certificate(self):
-        webbrowser.open('help.docx')
+        webbrowser.open('doc/help.docx')
 
 
 if __name__ == "__main__":
